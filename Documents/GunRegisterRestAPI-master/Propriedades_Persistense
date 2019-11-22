@@ -1,0 +1,9 @@
+--- Para conectar a API ao banco de dados ---
+
+Substituir esses campos no arquivo de persistense do projeto:
+
+<properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-02.cleardb.net:3306/heroku_643eec27a93bad0?zeroDateTimeBehavior=convertToNull&amp;createDatabaseIfNotExist=true"/>
+      <property name="javax.persistence.jdbc.user" value="b1c334af894ba4"/>
+      <property name="javax.persistence.jdbc.password" value="b6723cd2"/>
+</properties>
